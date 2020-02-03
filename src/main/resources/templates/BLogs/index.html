@@ -119,7 +119,8 @@
                 <!-- 我的信息 -->
                 <li class="nav-item dropdown" style="position: relative;">
                     <div style="position: absolute; top: 10px; left: -30px; ">
-                        <img th:src="${result.data.uImage}" style="width: 40px; height: 40px; border-radius: 30px;"/>
+                        <!--th:src="${result.data.uImage}-->
+                        <img th:src="@{/kodinger.jpg}" style="width: 40px; height: 40px; border-radius: 30px;"/>
                     </div>
                     <a class="nav-link text-uppercase text-dark dropdown-toggle" href="JavaScript:;"
                        id="navbarDropdown"
@@ -154,6 +155,7 @@
 </header>
 
 <!-- blog post -->
+<!-- th:src="${art.showImage}"-->
 <section class="section" style="background-color: #F5F6F7;">
     <div class="container">
         <div class="row masonry-container">
@@ -161,7 +163,9 @@
                 <article class="text-center">
                     <div style="height: 194px !important;">
                         <img class="img-fluid mb-4" style="height: 100% !important; width: 100% !important;"
+
                              th:src="${art.showImage}"
+
                              alt="post-thumb">
                     </div>
                     <p class="text-uppercase mb-2">[[${art.authorNumber}]]</p>

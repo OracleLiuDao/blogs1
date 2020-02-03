@@ -31,7 +31,8 @@ public class GlobalExceptionHandler {
     private static final Logger Logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     /**
-     * ----------------------------------------------------------------- 功能：处理全局异常
+     * -----------------------------------------------------------------
+     * 功能：处理全局异常
      * <p>
      * 返回：SystemResult 异常结果信息
      * -------------------------------------------------------------------

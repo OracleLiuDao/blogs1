@@ -9,7 +9,7 @@ spring: # 数据源配置
     mode: HTML5
   datasource:
     username: root
-    password: luqiqi
+    password: root
     url: jdbc:mysql://localhost:3306/blogs?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
